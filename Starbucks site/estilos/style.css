@@ -147,6 +147,7 @@ header {
 }
 
 .texto-dir {
+    position: absolute;
     font-family: 'Roboto';
     letter-spacing: 1px;
     line-height: 28px;
@@ -155,26 +156,40 @@ header {
     padding: 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 0px;
+    transform: translate(-50% -50%);
+    margin-top: 100px;
+
+}
+
+.texto-dir h1 {
+    font-size: 2em;
+}
+
+.texto-dir p {
+    padding-top: 30px;
+    font-size: 1.2em;
 }
 
 .texto-dir button {
     background-color: #d5ebe3;
     padding: 8px;
-    margin-top: 40px;
+    margin-top: 80px;
     padding-right: 16px;
     padding-left: 16px;
+    padding-top: 10px;
     border: 1px solid #1E3932;
     letter-spacing: 1.2px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bold ;
     border-radius: 40px;
     color: #1E3932;
     max-width: 50%;
     display: flex;
     align-items: center;
-
     transition: font-size 0.6s ease, box-shadow 0.6s ease;
+    margin-left: 34%;
 }
 
 .produtodireita button:hover {
