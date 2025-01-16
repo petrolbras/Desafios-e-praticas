@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --fontemenu: 'Roboto'
+}
+
+.starbuckslogo {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 30px;
+    
+}
+
+header {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.438);
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-esq {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.menutexto {
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-family: 'Roboto';
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    text-indent: 20px;;
+}
+
+.navbar-dir {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-dir > img {
+    width: 200px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.ache-uma-loja {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: 'Roboto';
+    text-indent: 20px;
+    margin-right: 16px;
+}
+
