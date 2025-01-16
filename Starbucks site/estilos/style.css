@@ -93,5 +93,41 @@ header {
     color: rgba(0, 0, 0, 0.959);
 }
 
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.produtomeio img {
+    width: 100%;
+    height: auto;
+}
+
+.comunicado {
+    background-color: #d5ebe3;
+    text-align: center;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 1.2em;
+    height: 250px;
+    margin-top: 30px;
+    padding-top: 40px;
+    color: #1E3932;
+}
+
+.comunicado button {
+    background-color: #d5ebe3;
+    padding: 8px;
+    margin-top: 30px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border: 1px solid #1E3932;
+    letter-spacing: 1.2px;
+    font-weight: bolder;
+    border-radius: 40px;
+    color: #1E3932;
+}
 
