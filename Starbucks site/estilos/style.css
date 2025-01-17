@@ -160,7 +160,7 @@ header {
 
 .produto2 {
     display: flex;
-    margin-top: 90px;
+    margin-top: 85px;
  }
 
 .produto-esquerda {
@@ -219,4 +219,47 @@ header {
     .produto-direita img {
         width: 100%;
     }
+}
+
+.produto3 {
+    display: flex;
+    margin-top: 40px;
+    background-color: #d5ebe3;
+ }
+
+.produto-esquerda2 {
+    height: auto;
+    flex: auto;
+}
+
+.produto-direita2 {
+    flex: auto;
+}
+
+.produto-direita2 img {
+    float: left;
+    flex: auto;
+    max-width: 100%;
+}
+
+.titulo-produto2 {
+    margin-top: 120px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.descricao-produto2 {
+    padding-top: 20px;
+    font-size: 1.1em;
+}
+
+.botao-conteudo3 {
+    background-color: #d5ebe3;
+    padding: 8px;
+    letter-spacing: 1.2px;
+    font-size: 17px;
+    font-weight: bold ;
+    color: #1E3932;
+    transition: font-size 0.6s ease, box-shadow 0.6s ease;
 }
