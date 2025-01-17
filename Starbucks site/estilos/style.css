@@ -15,7 +15,6 @@
     width: 50px;
     margin-right: 10px;
     margin-left: 30px;
-    
 }
 
 header {
@@ -33,7 +32,6 @@ header {
     display: flex;
     padding: 10px;
     align-items: center;
-    
 }
 
 .menutexto {
@@ -201,26 +199,6 @@ header {
     transition: font-size 0.6s ease, box-shadow 0.6s ease;
 }
 
-@media screen and (max-width: 1260px){
-    .produto2 {
-        padding: 30px;
-    }
-
-    .titulo-produto {
-        padding-right: 10px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .produto2 {
-        padding: 0px;
-    }
-
-    .produto-direita img {
-        width: 100%;
-    }
-}
-
 .produto3 {
     display: flex;
     margin-top: 40px;
@@ -305,4 +283,75 @@ header {
     font-weight: bold ;
     color: #1E3932;
     transition: font-size 0.6s ease, box-shadow 0.6s ease;
+}
+
+.rodape {
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.671);
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabela01 {
+    color: rgba(0,0,0,.56);
+    font-size: 1.0em;
+    line-height: 2.4;
+    letter-spacing: -.01em;
+    margin-bottom: .8rem;
+    padding-left: 0;
+    padding-bottom: .8rem;
+    list-style: none;
+    width: 100%;
+    max-width: 180px;
+}
+
+.titulot01 {
+    font-weight: bold;
+    color: #32312d;
+}
+
+.tabela02 {
+    color: rgba(0,0,0,.56);
+    font-size: 1.0em;
+    line-height: 2.4;
+    letter-spacing: -.01em;
+    margin-bottom: .8rem;
+    padding-bottom: .8rem;
+    list-style-type: none;
+}
+
+.titulot02 {
+    font-weight: bold;
+    color: #32312d;
+}
+
+.tabela03 {
+    color: rgba(0,0,0,.56);
+    font-size: 1.0em;
+    line-height: 2.4;
+    letter-spacing: -.01em;
+    margin-bottom: .8rem;
+    padding-bottom: .8rem;
+    list-style-type: none;
+}
+
+.titulot03 {
+    font-weight: bold;
+    color: #32312d;
+}
+
+.tabela04 {
+    color: rgba(0,0,0,.56);
+    font-size: 1.0em;
+    line-height: 2.4;
+    letter-spacing: -.01em;
+    margin-bottom: .8rem;
+    padding-bottom: .8rem;
+    list-style-type: none;
+}
+
+.titulot04 {
+    font-weight: bold;
+    color: #32312d;
 }
