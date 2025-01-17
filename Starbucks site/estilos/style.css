@@ -43,9 +43,20 @@ header {
     font-size: 12px;
     letter-spacing: 1.4px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-left: 16px;
-    text-indent: 20px;;
+    text-indent: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .menutexto {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
 }
 
 .botao1:hover {
