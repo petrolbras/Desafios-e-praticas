@@ -291,6 +291,8 @@ header {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.671);
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
 .tabela01 {
@@ -354,4 +356,24 @@ header {
 .titulot04 {
     font-weight: bold;
     color: #32312d;
+}
+
+.tabela01 li:hover{
+    color: rgba(0,0,0,.87);
+    cursor: pointer;
+}
+
+.tabela02 li:hover{
+    color: rgba(0,0,0,.87);
+    cursor: pointer;
+}
+
+.tabela03 li:hover{
+    color: rgba(0,0,0,.87);
+    cursor: pointer;
+}
+
+.tabela04 li:hover{
+    color: rgba(0,0,0,.87);
+    cursor: pointer;
 }
