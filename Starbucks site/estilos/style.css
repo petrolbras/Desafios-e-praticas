@@ -263,3 +263,46 @@ header {
     color: #1E3932;
     transition: font-size 0.6s ease, box-shadow 0.6s ease;
 }
+
+.produto4 {
+    display: flex;
+    margin-top: 40px;
+    background-color: #d5ebe3;
+ }
+
+.produto-esquerda4 {
+    height: auto;
+    flex: auto;
+}
+
+.produto-direita4 {
+    flex: auto;
+}
+
+.produto-direita4 img {
+    float: right;
+    flex: auto;
+    max-width: 100%;
+}
+
+.titulo-produto4 {
+    margin-top: 120px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.descricao-produto4 {
+    padding-top: 20px;
+    font-size: 1.1em;
+}
+
+.botao-conteudo4 {
+    background-color: #d5ebe3;
+    padding: 8px;
+    letter-spacing: 1.2px;
+    font-size: 17px;
+    font-weight: bold ;
+    color: #1E3932;
+    transition: font-size 0.6s ease, box-shadow 0.6s ease;
+}
