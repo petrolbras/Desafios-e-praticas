@@ -144,6 +144,13 @@ header {
     transition: font-size 0.6s ease, box-shadow 0.6s ease;
 }
 
+@media screen and (max-width: 650px) {
+    .comunicado {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 .comunicado button:hover {
     background-color: rgba(128, 128, 128, 0.164);
     cursor: pointer;
@@ -151,3 +158,65 @@ header {
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.185);
 }
 
+.produto2 {
+    display: flex;
+    margin-top: 90px;
+ }
+
+.produto-esquerda {
+    height: auto;
+    flex: auto;
+}
+
+.produto-direita {
+    flex: auto;
+}
+
+.produto-direita img {
+    float: right;
+    flex: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo-produto {
+    margin-top: 120px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.descricao-produto {
+    padding-top: 20px;
+    font-size: 1.1em;
+}
+
+.botao-conteudo2 {
+    background-color: #d5ebe3;
+    padding: 8px;
+    letter-spacing: 1.2px;
+    font-size: 17px;
+    font-weight: bold ;
+    color: #1E3932;
+    transition: font-size 0.6s ease, box-shadow 0.6s ease;
+}
+
+@media screen and (max-width: 1260px){
+    .produto2 {
+        padding: 30px;
+    }
+
+    .titulo-produto {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .produto2 {
+        padding: 0px;
+    }
+
+    .produto-direita img {
+        width: 100%;
+    }
+}
